@@ -1,0 +1,270 @@
+\documentclass[12pt]{article}
+\usepackage{url}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{caption}
+\usepackage{subcaption}
+\begin{document}
+\pagestyle{empty}
+\title{\huge{ECE~741 MidTerm Exam\\Spring, 2017}
+\vspace{50mm}
+\\\large{Alem Abreha\\ G00741281}\vspace{5mm}
+\\\large{George Mason University\\Fairfax, VA}}
+\date{03.29.2017}
+\maketitle
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newpage
+\subsubsection*{Question 1}
+\vspace{5mm}
+(a) Slow fading is the variation of signal power around the average value measured at relatively long distances caused by large obstacles like buildings and hills, while fast fading is variation of signal when the receiver moves at the orders half \(\lambda\), caused due to multi-pathing. Slow fading is modeled as log-normal distribution while fast fading is modeled as Rauleigh distribution for macrocells, or Ricean distribution for microcells.
+\newline 
+(b) It implies a channel bandwidth requirement with enough room to avoid Inter-Symbol Interference due to multipathing by a factor of 5. 
+\newline
+(c) Channel coherence time is inversely related to Doppler spread.
+\newline
+(d) D = \(2\sqrt{2}R\)
+\newline	
+\includegraphics{square_cells_red}
+\newline
+(e) OFDM addresses frequency selective fading problem by inserting guard intervals between symbols.
+\newline
+(f) Because it doesn't specify the number of channels in a single cell, channel reuse factor must be specified in order to truly represent capacity.
+\newline
+(g) \(T_{channel-occupancy} = min\{{ T_{cell-dwell},T_{call-duration} \}}\) , channel occupancy time is either the time spent until the mobile moves to another cell (cell dwell time) or the time until the channel is released. 
+\newline
+(h) Directed retry means mobile receivers located in overlapping area of cells may be redirected to other cells if all channels are occupied in the primary cell, with or without handoff mechanism.
+\newline
+(i) The doppler spread (factor of \(v/\lambda\), v=speed) caused by the speed of the receiver should be much less than the bitrate to have good performance and avoid spectrum modification.
+\newline
+(j) Fade margin for a network providing 99 percent successful service at the fringe of coverage with zero mean and \(\sigma\) = 6dB
+
+\begin{equation*}
+	\int_{F/\sigma}^{\infty} e^{-y^2/2}dy = 0.01
+\end{equation*}
+Q(F/\(\sigma\)) = 0.01 ,  
+From Q table F/\(\sigma\) = 2.3 , 
+F = 2.3 x 6 dB = 13.8 dB
+\newpage
+\subsubsection*{Question 2}
+\vspace{5mm}
+f = 1.8GHz , \(h_b\) = 20 m , \(h_m\) = 1 m , \(P_T\) = 20 dBm , \(G_T\) = \(G_R\) = 3 dB , 
+
+\(P_I\) = -110 dBm , \(SIR_{min}\) = 12 dB = 42 dBm
+\newline
+\newline
+(a) Two Ray Model
+\newline
+\newline
+d = 2 km
+\newline
+Minimum received power \newline
+\(P_{Rmin}\) =  \(P_I\) + \(SIR_{min}\) 
+			= -110 dBm + 42 dBm 
+			= -68 dBm
+\newline
+\newline
+Two Ray Model Power loss,\newline
+\(P_L\) = 40log(d) - 20log(\(h_m\)) - 20log(\(h_b\)) - \(G_T\) - \(G_R\) \newline
+\(P_L\) = 100.02 dB = 130.02 dBm
+\newline
+\newline
+Maximum loss to satisfy the minimum SIR, \(L_{max}\) = 	\(P_T\)  - 	\(P_{Rmin}\)
+\newline
+\(L_{max}\) = 20 dBm + 68 dBm = 88 dBm
+\newline
+\newline
+Therefore the maximum acceptable loss at the base station is: 
+= \(L_{max}\) - \(P_L\)			  
+= 88 dBm - 130 dBm
+= -42 dBm.
+\newline	
+\newline
+\newline
+(b) Free space loss model
+\newline
+\newline
+\(P_L\) = 20log4\(\pi\)d - 20log\(\lambda\) - \(G_T\) - \(G_R\) 
+\newline
+\(P_L\) = 97.57 dB = 127.97 dBm
+\newline
+\newline
+The maximum acceptable loss at the base station is:
+= \(L_{max}\) - \(P_L\)			  
+= 88 dBm - 127.97 dBm
+= -39.97 dBm
+								   
+
+\newpage
+\subsubsection*{Question 3}
+\vspace{5mm}
+(a) R = 270 Kbps with QPSK (each symbol carrying two bits = 2 bits/symbol), 
+\(\sigma_\tau\) = 1 microseconds
+\newline
+Bandwidth of transmitted signal (W)
+\newline
+\begin{equation*}
+W = { 270 Kbps\over2 bits/symbol }	 = 135 KHz
+\end{equation*}
+\newline
+50\% correlation bandwidth is :
+\begin{equation*}
+	B_c = { 1 \over {5\sigma_\tau}} = {1\over{5*10^{-6}}} = 200 KHz
+\end{equation*}
+\newline
+Here, we have W \(<\) \(B_c\) , this channel exhibits flat fading and there will be no Inter-Symbol Interference (ISI).
+\newline
+\newline
+(b) R =  11 Mbps BPSK (each symbol carrying one bit = 1 bits/symbol) , \(\sigma_\tau\) = 0.05 microseconds
+\newline
+\begin{equation*}
+W = { 11 Mbps\over1 bits/symbol }	 = 11 MHz
+\end{equation*}
+\newline
+\begin{equation*}
+	B_c = { 1 \over {5\sigma_\tau}} = {1\over{5*0.05*10^{-6}}} = 4 MHz
+\end{equation*}
+\newline
+W \(>\) \(B_c\), channel will exhibit frequency selective fading and there will be ISI.
+\newline
+\newline
+(c) R = 11 Mbps with 64QAM (each symbol carrying 6 bits = 6 bits/symbol), 
+\(\sigma_\tau\) = 0.05 microseconds
+\newline
+\begin{equation*}
+W = { 11 Mbps\over6 bits/symbol }	 = 1.833 MHz
+\end{equation*}
+\newline
+\begin{equation*}
+	B_c = { 1 \over {5\sigma_\tau}} = {1\over{5*0.05*10^{-6}}} = 4 MHz
+\end{equation*}
+\newline
+W \(<\) \(B_c\) , this channel exhibits flat fading and there will be no Inter-Symbol Interference (ISI).
+
+\subsubsection*{Question 4}
+\vspace{5mm}
+(a) \(P_{av}\) = -10dBm at 100m distance , lognormal  distribution with \(\sigma\) = 6dB
+Since the power is normalized gaussian around the average power, the probability that the received power at this distance is greater than -10dBm is 0.5
+\newline
+\newline
+(b) Pr\{ P\(>\)-40 dBm \} at 1 Km distance, with \(\sigma\) = 6 dB and taking path loss factor n = 4
+\newline
+\newline
+\begin{equation*}
+	P_o - P_{av} = 10nlog(r/R)
+\end{equation*} 
+\newline
+where r  = 100 m , R = 1 km = 1000 m
+\newline
+\begin{equation*}
+	P_o - P_{av} = 10*4*log({100\over1000}) = -40 dBm
+\end{equation*}
+\newline
+\newline
+Again , power is normalized gaussian around -40 dBm, therefore  
+
+Pr\{ P\(>\)-40 dBm \} = 0.5
+\newpage
+
+\subsubsection*{Question 5}
+\vspace{5mm}
+Hexagonal cells with R = 1.5 Km , 
+Channel reuse factor = 1/7,
+Spectrum = 350 full duplex channels,
+\(\mu\) = 0.01 sec\(^{-1}\) , 
+\(P_B\) = 0.01
+\newline
+\newline
+(a) Each subscriber generates 10 mErlangs = 10 x 10\(^{-3}\) Erlangs/customer
+\newline
+\newline
+N = Number of Channels per cell = \(350\over7\) = 50
+\begin{equation*}
+	P_B = { {{A^N}\over N!} \over {\sum_{n=0}^{N} { A^n \over n! } }  } = 0.01
+\end{equation*}
+From ErlangB table for \(P_B\) = 0.01 and N = 50 , A = 37.90
+\newline
+\newline
+Number of customers per cell = {37.9 Erlangs/cell \bigg/ 10 x 10\(^{-3}\) Erlangs/customer}
+= 3790 customers/cell
+\newline
+\newline
+Number of customers per cluster = 3790 customers/cell x 7 cells/cluster 
+= 26530 customers/cluster
+\newline
+\newline
+(b) Channel efficiency 
+\newline
+= 37.90Erlangs/50Channels = 0.758 Erlangs per Channel
+\newline
+\newline
+(c) Assuming blocked calls are delayed, i.e. \(P_C\) = 0.01
+\newline
+\newline
+From Erlang C table for \(P_C\) = 0.01 and N = 50 , A = 34.80 Erlangs
+\newline
+Number of customers per cell = {34.80 Erlangs/cell \bigg/ 10 x 10\(^{-3}\) Erlangs/customer}
+= 3480 customers/cell
+\newline
+\newline
+Number of customers per cluster = 3480 customers/cell x 7 cells/cluster
+= 24360 customers/cluster
+\newline
+\newline
+(d) Channel efficiency
+\newline
+= 34.80 Erlangs / 50 Channels = 0.696 Erlangs per Channel
+\newpage
+\subsubsection*{Question 6}
+\vspace{5mm}
+V = 60 km/hr , Cell Radius = r = 1 Km , N channels per cell , 
+\(\lambda\) = 0.2 sec\(^{-1}\), \(\mu\) = 0.01 sec\(^{-1}\), 
+Channel reuse factor = 1/13 , Spectrum = 260 full duplex channels in a cluster
+\newline
+\newline
+(a) \(P_B\) , with mobility ignored
+\newline
+N = \({260 \over 13}\) = 20 channels per cell, 
+A = \({\lambda \over \mu}\) = \(0.2 \over 0.01\) = 20 Erlangs
+\begin{equation*}
+	P_B = { {{A^N}\over N!} \over {\sum_{n=0}^{N} { A^n \over n! } }  }
+	    = { {{20^20}\over 20!} \over {\sum_{n=0}^{20} { 20^n \over n! } }  }
+	    = 0.159
+\end{equation*}
+(b) Cell dwell time
+\newline
+cell cross over rate \(\eta\) = \({VL \over \pi S}\) 
+= \({60 * 1000 * 6 * 1000 \over \pi * 2.6 * 1000^2}\)
+= 0.01225 \(sec^{-1}\)
+\newline
+cell dwell time = \({1 \over \eta}\) = 81.62 sec
+\newline
+\newline
+(c) Channel occupancy time 
+\begin{equation*}
+	\tau = {1 \over \mu + \eta} = {1 \over 0.01 + 0.01225} = 44.94  sec
+\end{equation*}
+(d) Probability of handoff 
+\begin{equation*}
+	P_h = {\eta \over \mu + \eta} = {0.01225 \over 0.01 + 0.01225} = 0.551
+\end{equation*}
+(e) Probability of a call going through no handoff before completion
+\begin{equation*}
+	1 - P_h = 1 - 0.551 = 0.449
+\end{equation*}
+(f) Probability of call blocking
+\newline
+\newline
+Handoff traffic rate
+\begin{equation*}
+	\lambda_h = { P_h \over 1 - P_h }\lambda = {\eta \over \mu }\lambda = {0.01225 \over 0.01} 0.2 = 0.245 
+\end{equation*}
+Total traffic load \(\rho\) = A
+\begin{equation*}
+	\rho = \rho_i + \rho_h = { \lambda \over { \mu + \eta } } + {\lambda_h \over { \mu + \eta}} = { {0.2 + 0.245} \over {0.01 + 0.01225} } = 20
+\end{equation*}
+\begin{equation*}
+	P_B = { {{A^N}\over N!} \over {\sum_{n=0}^{N} { A^n \over n! } }  }
+	    = { {{20^20}\over 20!} \over {\sum_{n=0}^{20} { 20^n \over n! } }  }
+	    = 0.159
+\end{equation*}
+\end{document}

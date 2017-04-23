@@ -1,0 +1,354 @@
+This is XeTeX, Version 3.14159265-2.6-0.99996 (TeX Live 2016) (preloaded format=xelatex 2016.5.22)  29 MAR 2017 21:14
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**"MidTerm Exam.tex"
+(./MidTerm Exam.tex
+LaTeX2e <2016/03/31>
+Babel <3.9r> and hyphenation patterns for 83 language(s) loaded.
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/size12.clo
+File: size12.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+) (/usr/local/texlive/2016/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip10
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+) (/usr/local/texlive/2016/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+ (/usr/local/texlive/2016/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks14
+) (/usr/local/texlive/2016/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2016/05/09 v1.0r Standard LaTeX Graphics (DPC,SPQR)
+ (/usr/local/texlive/2016/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+) (/usr/local/texlive/2016/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/01/02 v1.10 sample graphics configuration
+)
+Package graphics Info: Driver file: xetex.def on input line 96.
+ (/usr/local/texlive/2016/texmf-dist/tex/xelatex/xetex-def/xetex.def
+File: xetex.def 2016/04/06 v4.08 LaTeX color/graphics driver for XeTeX (TeX Live/RRM/JK)
+ (/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+) (/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+)))
+\Gin@req@height=\dimen103
+\Gin@req@width=\dimen104
+) (/usr/local/texlive/2016/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2016/03/10 v2.15b AMS math features
+\@mathmargin=\skip43
+
+For additional information on amsmath, use the `?' option.
+(/usr/local/texlive/2016/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01 AMS text
+ (/usr/local/texlive/2016/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks15
+\ex@=\dimen105
+)) (/usr/local/texlive/2016/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen106
+) (/usr/local/texlive/2016/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count87
+LaTeX Info: Redefining \frac on input line 199.
+\uproot@=\count88
+\leftroot@=\count89
+LaTeX Info: Redefining \overline on input line 297.
+\classnum@=\count90
+\DOTSCASE@=\count91
+LaTeX Info: Redefining \ldots on input line 394.
+LaTeX Info: Redefining \dots on input line 397.
+LaTeX Info: Redefining \cdots on input line 518.
+\Mathstrutbox@=\box26
+\strutbox@=\box27
+\big@size=\dimen107
+LaTeX Font Info:    Redeclaring font encoding OML on input line 634.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 635.
+\macc@depth=\count92
+\c@MaxMatrixCols=\count93
+\dotsspace@=\muskip11
+\c@parentequation=\count94
+\dspbrk@lvl=\count95
+\tag@help=\toks16
+\row@=\count96
+\column@=\count97
+\maxfields@=\count98
+\andhelp@=\toks17
+\eqnshift@=\dimen108
+\alignsep@=\dimen109
+\tagshift@=\dimen110
+\tagwidth@=\dimen111
+\totwidth@=\dimen112
+\lineht@=\dimen113
+\@envbody=\toks18
+\multlinegap=\skip44
+\multlinetaggap=\skip45
+\mathdisplay@stack=\toks19
+LaTeX Info: Redefining \[ on input line 2739.
+LaTeX Info: Redefining \] on input line 2740.
+) (/usr/local/texlive/2016/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2016/02/21 v3.3-144 Customizing captions (AR)
+ (/usr/local/texlive/2016/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2016/02/04 v1.7-139 caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 67.
+\captionmargin=\dimen114
+\captionmargin@=\dimen115
+\captionwidth=\dimen116
+\caption@tempdima=\dimen117
+\caption@indent=\dimen118
+\caption@parindent=\dimen119
+\caption@hangindent=\dimen120
+)
+\c@ContinuedFloat=\count99
+) (/usr/local/texlive/2016/texmf-dist/tex/latex/caption/subcaption.sty
+Package: subcaption 2016/02/20 v1.1-142 Sub-captions (AR)
+\c@subfigure=\count100
+\c@subtable=\count101
+) (/Users/alemabreha/Google Drive/GMU_SPRING_2017/ECE-741/scholarly paper/.texpadtmp/MidTerm Exam.aux)
+\openout1 = `"MidTerm Exam.aux"'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: End \AtBeginDocument code.
+
+
+LaTeX Warning: No \author given.
+
+[1
+
+]
+File: square_cells_red.png Graphic file (type QTm)
+ <use  "square_cells_red.png" >
+Overfull \hbox (1.02518pt too wide) in paragraph at lines 19--40
+\OT1/cmr/m/n/12 (g) $\OML/cmm/m/it/12 T[] \OT1/cmr/m/n/12 = \OML/cmm/m/it/12 min\OMS/cmsy/m/n/12 f[]$ \OT1/cmr/m/n/12 , chan-nel oc-cu-pancy time
+ []
+
+[2]
+Underfull \hbox (badness 10000) in paragraph at lines 52--95
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 52--95
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 52--95
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 52--95
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 52--95
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 52--95
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 52--95
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 52--95
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 52--95
+
+ []
+
+[3]
+Overfull \hbox (6.21692pt too wide) in paragraph at lines 100--105
+\OT1/cmr/m/n/12 (a) R = 270 Kbps with QPSK (each sym-bol car-ry-ing two bits = 2 bits/symbol),
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 100--105
+
+ []
+
+
+Package amsmath Warning: Foreign command \over;
+(amsmath)                \frac or \genfrac should be used instead
+(amsmath)                 on input line 106.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 112--119
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 112--119
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 121--123
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 125--133
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 125--133
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 135--137
+
+ []
+
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 149.
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 149.
+
+Underfull \hbox (badness 10000) in paragraph at lines 145--152
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 145--152
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 145--152
+
+ []
+
+[4]
+Underfull \hbox (badness 10000) in paragraph at lines 154--158
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 160--164
+
+ []
+
+[5]
+Underfull \hbox (badness 10000) in paragraph at lines 170--181
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 170--181
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 183--216
+
+ []
+
+
+Overfull \hbox (13.14626pt too wide) in paragraph at lines 183--216
+\OT1/cmr/m/n/12 Number of cus-tomers per cell = 37.9 Er-langs/cell [] 10 x 10$[]$ Er-langs/customer
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 183--216
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 183--216
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 183--216
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 183--216
+
+ []
+
+
+Overfull \hbox (19.0212pt too wide) in paragraph at lines 183--216
+\OT1/cmr/m/n/12 Number of cus-tomers per cell = 34.80 Er-langs/cell [] 10 x 10$[]$ Er-langs/customer
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 183--216
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 183--216
+
+ []
+
+[6]
+Underfull \hbox (badness 10000) in paragraph at lines 219--228
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 232--243
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 253--258
+
+ []
+
+[7] (/Users/alemabreha/Google Drive/GMU_SPRING_2017/ECE-741/scholarly paper/.texpadtmp/MidTerm Exam.aux) ) 
+Here is how much of TeX's memory you used:
+ 2596 strings out of 493591
+ 38857 string characters out of 6143546
+ 106071 words of memory out of 5000000
+ 6010 multiletter control sequences out of 15000+600000
+ 9319 words of font info for 34 fonts, out of 8000000 for 9000
+ 1347 hyphenation exceptions out of 8191
+ 36i,6n,38p,485b,194s stack positions out of 5000i,500n,10000p,200000b,80000s
+
+Output written on /Users/alemabreha/Google Drive/GMU_SPRING_2017/ECE-741/scholarly paper/.texpadtmp/MidTerm Exam.pdf (7 pages).
